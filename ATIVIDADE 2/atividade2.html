@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>O que você achou do site??</legend>
+        <input type="radio" name="avaliacao" value="Muito bom">Muito bom
+        <input type="radio" name="avaliacao" value="Bom">Bom
+        <input type="radio" name="avaliacao" value="Regular">Regular
+        <input type="radio" name="avaliacao" value="Um lixo">Um lixo
+    </fieldset>
+    <fieldset>
+        <legend>Qual a seção que você mais gostou??</legend>
+       
+        <select name="selecao" id="avaliacao">
+            <option value="Em cartaz"> Em cartaz</option>
+            <option value="Em breve"> Em breve</option>
+            <option value="Mês que vem"> Mês que vem</option>
+            <br>
+        </select>
+        <label for ="outra">Outra:</label>
+        <input type="text" name="outra" id="outa">
+    </fieldset>
+    <fieldset>
+        <legend>Digite seus comentários no campo abaixo:</legend>
+        <textarea name="descricao" id="descricao" rows="10" cols="60"> </textarea>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Diga-nos como entrar em contato com você:</legend>
+        <label for ="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" >
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="telefone">Fone:</label>
+        <input type="tel" id="phone" name="phone"pattern="[0-9] {3}-[0-9]{3}">
+    </fieldset>
+    <fieldset>
+        <legend></legend>
+        <input type="checkbox" name="marcelo" value="marcelo">Quero receber as novidades do site por e-mail
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Enviar Dados">
+        <input type="submit" value="Limpar Formulário">
+     </fieldset>
+    </form>
+</body>
+</html>

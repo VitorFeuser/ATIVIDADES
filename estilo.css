@@ -1,0 +1,22 @@
+.div1{
+    background-color: brown;
+    height: 100px;
+    width: 30%;
+}
+.div2{
+    background-color: blue;
+    height: 100px;
+    width: 30%;
+}
+.div3{
+    background-color: green;
+    height: 100px;
+    width: 30%;
+}
+.flex-container {
+    display: flex;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
