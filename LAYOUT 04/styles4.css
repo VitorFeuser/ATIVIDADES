@@ -4,65 +4,52 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    flex-direction: column;
-    
+    margin: 0; 
 }
-#D1{
-    width: 350px;
-    height: 100px;
-    border: 4px dashed white;
-    padding: 10px;
-    margin-right: 20px;
-    display: flex;
-    
-    justify-content: space-around;
-}
-    #Q{
+    .R1{
     width: 100px;
-    height: 100%;
+    height: 350px;
     background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    margin-right: 8px;
+    margin-right: 15px;
 }
-    #Ra{
-    width: 220px;
-    height: 100%;
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-}
-    #D2{
-    width: 350px;
-    height: 200px;
+    .D1{
+    width: 300px;
+    height: 350px;
     border: 4px dashed white;
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin-right: 20px;
-    margin-bottom: 10px;
 }
-    #D3{
-    width: 220px;
-    height: 100%;
-    flex-direction: column;
+    .R2b{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+    .D3{
+    width: 100%;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    
-    margin-right: 25px;
+    border: 4px dashed white;
+    margin-bottom: 15px;   
 }
-    .Rb{
-    width: 210px;
-    height: 45%;
+    .R2a{
+    width: 100%;
+    height: 100px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -70,9 +57,9 @@ body{
     font-size: 24px;
     font-weight: bold;
 }
-    .Rc{
-    width: 210px;
-    height: 45%;
+    .Qa{
+    width: 45%;
+    height: 90px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -80,14 +67,23 @@ body{
     font-size: 24px;
     font-weight: bold;
 }
-    #R2{
-    width: 100px;
-    height: 100%;
+    .Qb{
+    width: 45%;
+    height: 90px;
     background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    
+}
+    .D2{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: column;
 }
